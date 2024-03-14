@@ -126,3 +126,12 @@ body {
 .site-nav .site-nav-link:active {
   opacity: 0.6;
 }
+
+/* Sign form */
+.main-conyent {
+  background-image: url('../img/baground.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
