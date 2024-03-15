@@ -26,6 +26,11 @@ body {
 .site-header {
 
 }
+
+a {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
 .container {
   width: 100%;
   max-width: 1040px;
@@ -140,6 +145,14 @@ body {
 .sign {
 
 }
+
+.site-nav-list-regstration {
+  margin: 0;
+}
+
+.site-nav-list-regstration .site-nav-list-link {
+  color: #fff;
+}
 .regstration-form {
   display: flex;
   flex-direction: column;
@@ -201,4 +214,117 @@ body {
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid #fff;
+}
+
+
+/* Regstration form */
+.sign-form {
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  padding: 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.sign-logo {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 150px;
+}
+.regstration-form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form-heading {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.input-wraper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wraper:not(:last-child) {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.label-text {
+  margin-bottom: 5px;
+}
+.input-text {
+  display: block;
+}
+
+.input-group {
+  display: flex;
+}
+
+.send-button {
+  padding: 5px;
+  margin: 0;
+  margin-top: 20px;
+  display: inline-block;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  background-color:#5cd4ac;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+
+
+.sign-in-form {
+  width: 100%;
+  max-width: 390px;
+  height: 100%;
+  padding: 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-link {
+  font-weight: 100;
+  color: #222;
+  opacity: 0.6;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.form-heading-sign {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.sign-logo-sign {
+  margin-left: 80px;
+  width: 200px;
+  height: 35px;
+  display: flex;
+  justify-content:center ;
 }
