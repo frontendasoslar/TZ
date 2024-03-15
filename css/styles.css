@@ -128,10 +128,77 @@ body {
 }
 
 /* Sign form */
-.main-conyent {
+.main-content {
   background-image: url('../img/baground.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
+}
+
+.sign {
+
+}
+.regstration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 220px;
+  padding-bottom: 250px;
+}
+.regstration-form-heading {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 800px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.regstration-form-title {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 400px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
+
+.regstration-link {
+ font-size: 18px;
+ font-weight: 800px;
+ line-height: 16px;
+ padding: 24px 32px;
+ text-decoration: none;
+ color: #fff;
+ background-color: #5200D9;
+ border: 0;
+ border-radius: 5px;
+ margin-bottom: 12px;
+}
+
+.sign-wraper {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+.sign-wraper-title {
+  padding: 0;
+  margin: 0;
+}
+.sign-wraper-title-item {
+  padding: 0;
+  margin: 0;
+}
+.sign-wraper-link {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
 }
