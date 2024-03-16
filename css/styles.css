@@ -333,17 +333,12 @@ a {
 
 /* Modula one */
 
-.container-module {
-  width: 100%;
-  height: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .module-one-wraper {
   padding-top: 20px;
   padding-bottom: 20px;
+  width: auto;
+
 }
 
 .wraper-heading {
@@ -352,14 +347,15 @@ a {
   margin: 0;
 }
 .module-list {
+  width: auto;
   border: 1px solid #222;
   padding: 0;
   margin: 0;
-
   display: flex;
   align-items: center;
   justify-content:space-around;
   list-style: none;
+  overflow-x: scroll;
 }
 .li {
   padding: 0;
@@ -373,7 +369,7 @@ a {
   padding: 2px;
 }
 
-.line {
+.lin {
   padding: 0;
   margin: 0;
   width: 1px;
@@ -394,4 +390,106 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-left: 5px;
+}
+
+.list-item:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+}
+
+.table {
+  border: 1px solid #e0e0e0;
+}
+.text {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+}
+
+.line {
+  padding: 0;
+  margin: 0;
+  width: 1px;
+  height: 82.24px;
+  background-color: #222;
+}
+
+.table-item {
+  border-right: 1px solid #e0e0e0;
+}
+.table-item:hover {
+ background-color: #abe6d2;
+}
+
+
+.fildset {
+  border: 0;
+}
+.wrap {
+  margin-top: 50px;
+}
+.textaria {
+  width: 800px;
+  height: 200px;
+}
+
+.textaria {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.table-link {
+  color: #fff;
+  background-color: blue;
+  padding: 10px 20px;
+  margin-left: 14px;
+  border-radius: 10px;
+}
+
+
+.wraper-ofer-1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.offer-input-wraper {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+.offer-input-text {
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 20px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+.offer-section {
+  padding: 40px 0px 40px 40px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 1440px;
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.ofer-input-wraper {
+  display: flex;
+}
+
+.offer-input-text-2 {
+  margin-left: 20px;
+}
+
+.dolya {
+  width: 400px;
+}
+
+.request {
+  color: #fff;
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
