@@ -118,7 +118,6 @@
         <th class="table-item"><p class="text">ВИД</p></th>
 
         <th class="table-item"><p class="text">СТРАХОВАТЕЛЬ</p></th>
-        <th class="table-item"><p class="text">СТРАХОВЩИК (ПЕРЕСТРАХОВАТЕЛЬ)</p></th>
         <th class="table-item"><p class="text">ПЕРИОД СТРАХОВАНИЯ</p></th>
 
         <th class="table-item"><p class="text">ОБЩАЯ СУММА СТРАХОВАНИЯ / ЛИМИТ ОТВЕТСТВЕННОСТИ:</p></th>
@@ -132,8 +131,8 @@
 
         <th class="table-item"><p class="text">ПЕРИОД ПЕРЕСТРАХОВАНИЯ</p></th>
         <th class="table-item"><p class="text">ДОЛЯ ПЕРЕСТРАХОВАТЕЛЯ</p></th>
-        <th class="table-item"><p class="text">ДОЛЯ БРОКЕРА НА РАЗМЕЩЕНИЯ В ПЕРЕСТРАХОВАНИЕ</p></th>
-        <th class="table-item"><p class="text">БРУТТО/НЕТТО-ПРЕМИЯ ПЕРЕСТРАХОВОЧНОГО БРОКЕРА</p></th>
+        <th class="table-item"><p class="text">ОТКРЫТАЯ/ПРЕДЛАГАЕМЯ ДОЛЯ НА ПЕРЕСТРАХОВАНИЕ</p></th>
+        <th class="table-item"><p class="text">ПРЕДЛАГАЕМАЯ БРУТТО/НЕТТО-ПРЕМИЯ</p></th>
        </tr>
       </tbody>
     </table>
@@ -247,7 +246,7 @@
 
     <div class="wraper-ofer-1">
       <div class="offer-input-wraper">
-        <label for="insure">ПЕРИОД ПЕРЕСТРАХОВАНИЯ:</label>
+        <label for="insure">ДОЛЯ ПЕРЕСТРАХОВАТЕЛЯ:</label>
         <div class="ofer-input-wraper">
           <input class="offer-input-text dolya" type="text" id="insure" >
           <p>или</p>
@@ -255,7 +254,7 @@
         </div>
       </div>
       <div class="offer-input-wraper">
-        <label for="insure">ДОЛЯ ПЕРЕСТРАХОВАТЕЛЯ:</label>
+        <label for="insure">ПЕРИОД ПЕРЕСТРАХОВАНИЯ:</label>
         <div class="ofer-input-wraper">
           <input class="offer-input-text" type="datetime-local" id="insure" >
           <p>-</p>
@@ -266,19 +265,23 @@
 
     <div class="wraper-ofer-1">
       <div class="offer-input-wraper">
-        <label for="insure">ДОЛЯ БРОКЕРА НА РАЗМЕЩЕНИЯ В ПЕРЕСТРАХОВАНИЕ:</label>
+        <label for="insure">ОТКРЫТАЯ/ПРЕДЛАГАЕМЯ ДОЛЯ НА ПЕРЕСТРАХОВАНИЕ:</label>
         <input class="offer-input-text" type="text" id="insure" >
       </div>
       <div class="offer-input-wraper">
-        <label for="insure">БРУТТО/НЕТТО-ПРЕМИЯ ПЕРЕСТРАХОВОЧНОГО БРОКЕРА:</label>
+        <label for="insure">ПРЕДЛАГАЕМАЯ БРУТТО/НЕТТО-ПРЕМИЯ:</label>
         <input class="offer-input-text" type="text" id="insure" >
       </div>
     </div>
 
     <form action="" class="module-form">
       <div class="wrap">
+        <div class="add-file">
+          <div class="add-file-heading">Файл юуклаш</div>
+          <div class="file-box"><img src="img/new-folder.png" alt="" class="iconc-img" width="40" height="40"></div>
+        </div>
         <fieldset class="fildset">
-          <legend>Mulohazalar:</legend>
+          <legend>Таклифлар:</legend>
           <textarea class="textaria textarie-2" name="Xabar" id="info_input" placeholder="xabar" required></textarea>
         </fieldset>
       </div>

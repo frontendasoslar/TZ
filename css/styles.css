@@ -428,6 +428,7 @@ a {
 }
 .wrap {
   margin-top: 50px;
+  display: flex;
 }
 .textaria {
   width: 1400px;
@@ -496,7 +497,7 @@ a {
 
 .textarie-2 {
   margin-left: -10px;
-  width: 1380px;
+  width: 1160px;
 }
 
 .risks {
@@ -505,4 +506,49 @@ a {
 
 .risks-2 {
   margin-top: 60px;
+}
+
+
+.add-file {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.add-file-heading {
+  margin-bottom: 5px;
+}
+.file-box {
+  width: 200px;
+  height: 200px;
+  border: 1px dotted #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconc-img {
+
+}
+
+
+.section-zayafka-container {
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.zayafka-img {
+}
+.zayafka-heading {
+}
+.zayafka-title {
+}
+.zayafka-send {
 }
