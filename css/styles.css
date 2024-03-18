@@ -430,7 +430,7 @@ a {
   margin-top: 50px;
 }
 .textaria {
-  width: 800px;
+  width: 1400px;
   height: 200px;
 }
 
@@ -492,4 +492,17 @@ a {
   background-color: blue;
   padding: 10px 20px;
   border-radius: 10px;
+}
+
+.textarie-2 {
+  margin-left: -10px;
+  width: 1380px;
+}
+
+.risks {
+  text-align: center;
+}
+
+.risks-2 {
+  margin-top: 60px;
 }
